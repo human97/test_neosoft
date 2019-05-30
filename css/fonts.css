@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Impact';
+	src: url('../fonts/Impact/Impact.eot');
+	src: local('@#'),
+		url('../fonts/Impact/Impact.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Impact/Impact.woff') format('woff'),
+        url('../fonts/Impact/Impact.woff2') format('woff2'),
+		url('../fonts/Impact/Impact.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('../fonts/Bebas/BebasNeueRegular.eot');
+	src: local('@#'),
+		url('../fonts/Bebas/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bebas/BebasNeueRegular.woff') format('woff'),
+        url('../fonts/Bebas/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/Bebas/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tahoma';
+	src: url('../fonts/Tahoma/Tahoma.eot');
+	src: local('@#'),
+		url('../fonts/Tahoma/Tahoma.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tahoma/Tahoma.woff') format('woff'),
+		url('../fonts/Tahoma/Tahoma.woff2') format('woff2'),
+		url('../fonts/Tahoma/Tahoma.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tahoma';
+	src: url('../fonts/Tahoma/Tahoma-Bold.eot');
+	src: local('@#'),
+		url('../fonts/Tahoma/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tahoma/Tahoma-Bold.woff') format('woff'),
+		url('../fonts/Tahoma/Tahoma-Bold.woff2') format('woff2'),
+		url('../fonts/Tahoma/Tahoma-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
