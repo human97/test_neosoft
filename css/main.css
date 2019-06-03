@@ -42,8 +42,13 @@ body {
 	color: #777777;
 }
 
+.button p {
+	padding-left: 6px;
+}
+
 .button img {
-	padding-right: 6px;
+	width: 21px;
+	height: 21px;
 }
 
 .block__buttons {
@@ -167,7 +172,7 @@ aside.aside__left {
 	background-blend-mode: soft-light;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#365b79), to(#6895af));
 	background-image: linear-gradient(to bottom, #365b79, #6895af);
-	border-right: #ffffff 1px solid;
+	border-right: #ffffff .5px solid;
 }
 
 .service__btn_wrapper {
@@ -193,6 +198,8 @@ aside.aside__left {
 }
 
 .header__card {
+	border: #fff solid;
+	border-width: 1px 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -204,9 +211,8 @@ aside.aside__left {
 }
 
 .prod__cat {
+	border-right-width: .5px;
 	max-width: 256px;
-	border: #fff solid 1px;
-	border-top-width: 2px;
 	mix-blend-mode: multiply;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#dae8f8), to(#fbfcfe));
 	background-image: linear-gradient(to bottom, #dae8f8, #fbfcfe);
@@ -228,6 +234,7 @@ aside.aside__left {
 }
 
 .prod__cat-list {
+	background-image: linear-gradient(to bottom, #C5DBF2 0px, #ffffff 7px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -516,19 +523,19 @@ article.article__right {
 /* << Продуктовая карточка */
 .card_product {
 	width: 50%;
-	border: 1px solid #ecf0f5;
+	border: .5px solid #ecf0f5;
+	border-top: none;
 
 }
 
 .feature__product {
-
-	border-bottom: 1px solid #ffffff;
 	mix-blend-mode: multiply;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#deeaf9), to(#f5f8fd));
 	background-image: linear-gradient(to bottom, #deeaf9, #f5f8fd);
 }
 
 .item__featured_product {
+	background-image: linear-gradient(to bottom, #C5DBF2 0px, #ffffff 7px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -539,7 +546,21 @@ article.article__right {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 0 22px 14px 16px;
+	padding: 11px 22px 17px 16px;
+}
+
+.foto__prod-wrapper {
+	width: 111px;
+	height: 111px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .foto-price {
