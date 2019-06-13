@@ -504,7 +504,8 @@ article.article__right {
 	border-left: 1px solid #3082bc;
 }
 
-.header__nav_right a {
+.header__nav_right a,
+.openMenu {
 	text-decoration: none;
 	text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.53);
 	font-family: Bebas;
