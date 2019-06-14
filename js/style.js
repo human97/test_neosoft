@@ -1,12 +1,13 @@
 window.onload = function(){
-    var menuStyle=getComputedStyle(menu);
+    let menuStyle=getComputedStyle(menu);
+    openMenu=document.getElementById('openMenu');
     openMenu.onclick=function(){
         if(menuStyle.display=='none'){
           menu.classList.add('active');
-          this.innerHTML='Close Menu';  
+          this.textContent='Close Menu';  
         } else{
             menu.classList.remove('active');
-            this.innerHTML='Open Menu';  
+            this.textContent='Open Menu';  
           }
     }
 }
