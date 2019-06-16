@@ -677,6 +677,8 @@ article.article__right {
 @media (max-width: 767px) {
 	.openMenu {
 		display: block;
+		font-size: 16px;
+	font-weight: bold;
 	}
 
 	.header__nav_right ul {
