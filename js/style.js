@@ -1,13 +1,11 @@
-window.onload = function () {
-  let menuStyle = getComputedStyle(menu);
-  openMenu = document.getElementById('openMenu');
-  openMenu.onclick = function () {
-    if (menuStyle.display == 'none') {
-      menu.classList.add('active');
-      this.textContent = 'Close Menu';
-    } else {
-      menu.classList.remove('active');
-      this.textContent = 'Open Menu';
-    }
-  }
-}
+window.addEventListener("load", function (e) {
+  let openMenu = document.getElementById('openMenu');
+  menu = document.getElementById('menu');
+  document.addEventListener("click", function (e) {
+    if (openMenu === e.target) {
+      e.preventDefault();
+      menu.classList.toggle("active")
+    } else if (e.target.closest(".active") || menu.classList.contains("active")) return;
+    else menu.classList.add("active")
+  }, true)
+});

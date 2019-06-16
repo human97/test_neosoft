@@ -680,7 +680,6 @@ article.article__right {
 	}
 
 	.header__nav_right ul {
-		display: none;
 		position: absolute;
 		top: 100%;
 		left: 0;
@@ -705,7 +704,7 @@ article.article__right {
 	}
 
 	.header__nav_right ul.active {
-		display: block;
+		display: none;
 	}
 }
 
