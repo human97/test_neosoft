@@ -1,6 +1,6 @@
 window.addEventListener("load", function (e) {
-  let openMenu = document.getElementById('openMenu');
-  menu = document.getElementById('menu');
+  let openMenu = document.querySelector('#openMenu');
+  let menu = document.querySelector('#menu');
   document.addEventListener("click", function (e) {
     if (openMenu === e.target) {
       e.preventDefault();
